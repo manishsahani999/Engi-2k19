@@ -26,7 +26,7 @@
                         <div class="accordion__title">
                             <span class="h5">{{$item->name}}
                             <small>
-                                smaall                             
+                                {{ $item->email }}                       
                             </small>
                         </span>
                         </div>
