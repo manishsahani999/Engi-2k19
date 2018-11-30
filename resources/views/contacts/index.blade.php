@@ -26,13 +26,22 @@
                         <div class="accordion__title">
                             <span class="h5">{{$item->name}}
                             <small>
-                                {{ $item->email }}                       
+                                {{ $item->college }}                       
                             </small>
                         </span>
                         </div>
                         <div class="accordion__content">
-                            lorem
+                            <strong>{{ $item->email }}</strong>
                             <br>
+                            <strong>Contact no: </strong> {{ $item->phone }}
+                            <br>
+                            <strong>CC Head: </strong> {{ $item->cc_head }}
+                            <br>
+                            <strong>Year</strong>: {{ $item->year }}
+                            <br>
+                            <strong>Max working hrs: </strong>: {{ $item->work_hrs }}
+                            <br>
+                            <strong>Why Join:</strong> {{ $item->join }}
                             <small>
                             Created <strong>{{ $item->created_at /*->diffForHumans() */ }}</strong>
                         </small>
