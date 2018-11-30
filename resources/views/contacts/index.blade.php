@@ -31,7 +31,7 @@
                         </span>
                         </div>
                         <div class="accordion__content">
-                            <strong>{{ $item->email }}</strong>
+                            {{ $item->email }}
                             <br>
                             <strong>Contact no: </strong> {{ $item->phone }}
                             <br>
@@ -42,6 +42,7 @@
                             <strong>Max working hrs: </strong>: {{ $item->work_hrs }}
                             <br>
                             <strong>Why Join:</strong> {{ $item->join }}
+                            <br>
                             <small>
                             Created <strong>{{ $item->created_at /*->diffForHumans() */ }}</strong>
                         </small>
