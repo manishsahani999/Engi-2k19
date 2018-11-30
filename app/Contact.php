@@ -10,6 +10,13 @@ class Contact extends Model
     use Uuids;
 
     protected $fillable = [
-        'name', 'college', 'phone', 'cc_head', 'email', 'year', 'work_hrs', 'join'
+        'name',
+        'college', 
+        'phone', 
+        'cc_head', 
+        'email', 
+        'year', 
+        'work_hrs', 
+        'join'
     ];
 }
